@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare your texts!</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Compare your texts!</h1>
+
+    <textarea name="text1" id="text1" cols="50" rows="10" placeholder="Enter text 1 here"></textarea>
+    <textarea name="text2" id="text2" cols="50" rows="10" placeholder="Enter text 2 here"></textarea>
+
+    <button id="compareButton">Compare Texts</button>
+    <div id="diffOutput"></div>
+    
+    <script src="./node_modules/diff/dist/diff.js"></script>
+    <script type="module" src="./apps.js"></script>
+</body>
+</html>
