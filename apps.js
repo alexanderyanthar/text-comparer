@@ -1,3 +1,5 @@
+import { diffWords } from "diff";
+
 function compareText() {
     const text1 = document.getElementById('text1').value;
     const text2 = document.getElementById('text2').value;
