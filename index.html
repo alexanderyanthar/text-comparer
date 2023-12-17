@@ -10,24 +10,25 @@
   <body>
     <h1>Compare your texts!</h1>
 
-    <div class="textAreaDiv">
-      <textarea
-        name="text1"
-        id="text1"
-        cols="50"
-        rows="20"
-        placeholder="Enter text 1 here"
-      ></textarea>
-      <textarea
-        name="text2"
-        id="text2"
-        cols="50"
-        rows="20"
-        placeholder="Enter text 2 here"
-      ></textarea>
+    <div class="container">
+      <div class="textAreaDiv">
+        <textarea
+          name="text1"
+          id="text1"
+          cols="50"
+          rows="20"
+          placeholder="Enter text 1 here"
+        ></textarea>
+        <textarea
+          name="text2"
+          id="text2"
+          cols="50"
+          rows="20"
+          placeholder="Enter text 2 here"
+        ></textarea>
+      </div>
+      <button id="compareButton">Compare Texts</button>
     </div>
-
-    <button id="compareButton">Compare Texts</button>
     <div id="diffOutput"></div>
 
     <script type="module" src="./node_modules/diff/dist/diff.js"></script>
