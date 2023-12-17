@@ -230,3 +230,8 @@ body {
   width: 90%;
   margin: 0 auto;
 }
+
+#diffOutput {
+  line-height: 2;
+  font-size: 20px;
+}
